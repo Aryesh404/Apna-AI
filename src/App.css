@@ -4,7 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +39,35 @@
 .read-the-docs {
   color: #888;
 }
+.answer-box {
+  border: 2px solid #d1d5db; /* gray-300 */
+  padding: 16px; /* Tailwind: p-4 */
+  border-radius: 8px; /* Tailwind: rounded-lg */
+  background-color: #1a1a1b; /* white */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Tailwind: shadow-lg */
+  transition: transform 0.5s; /* Tailwind: transition-all duration-500 transform */
+  
+}
+
+.answer-box:hover {
+  transform: scale(1.05); /* Tailwind: hover:scale-105 */
+}
+.input-box {
+  width: 100%;
+  height: 10px; /* Adjust height as needed */
+  border-radius: 12px; /* More rounded corners */
+  padding: 16px;
+  border: 1px solid #d1d5db; /* gray-300 */
+  transition: all 0.3s;
+}
+
+.input-box:focus {
+  border-color: #3b82f6; /* blue-500 */
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5); /* blue-400 */
+}
+/* App.css */
+.text-answer {
+  color: white;
+  text-align: justify;
+}
+
